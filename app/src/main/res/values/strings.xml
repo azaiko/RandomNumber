@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RandomNumber</string>
+    <string name="msg_show_str">Отгадай!</string>
+    <string name="hint_show_str">Задумано двузначное число</string>
+    <string name="guess_str">Отгадать</string>
+    <string name="attempts_left">5</string>
+    <string name="restart_str">Заново</string>
+    <string name="num_users_str">Введите число</string>
+    <string name="confirm_str">Подтвердить выбор</string>
+    <string name="applied">Отгадано!</string>
+    <string name="wishYou">Поздравляю!</string>
+
+</resources>

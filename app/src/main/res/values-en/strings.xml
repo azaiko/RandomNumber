@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">RandomNumber</string>
+        <string name="msg_show_str">Guess</string>
+        <string name="hint_show_str">Two-digit number intended</string>
+        <string name="guess_str">Guess</string>
+        <string name="attempts_left">5</string>
+        <string name="restart_str">Anew</string>
+        <string name="num_users_str">Enter the number</string>
+        <string name="confirm_str">Confirm selection</string>
+        <string name="applied">Guessed!</string>
+        <string name="wishYou">Congratulations!</string>
+</resources>

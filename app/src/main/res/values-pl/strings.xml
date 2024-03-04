@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RandomNumber</string>
+    <string name="msg_show_str">Zgadłem</string>
+    <string name="hint_show_str">Zamierzono liczbę dwucyfrową</string>
+    <string name="guess_str">Zgadywać</string>
+    <string name="attempts_left">5</string>
+    <string name="restart_str">Nowo</string>
+    <string name="num_users_str">Wprowadź numer</string>
+    <string name="confirm_str">Potwierdź wybór</string>
+    <string name="applied">Zgadłem!</string>
+    <string name="wishYou">Gratulacje!</string>
+</resources>

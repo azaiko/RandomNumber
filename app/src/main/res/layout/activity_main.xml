@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/msg_show_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/msg_show_str"
+        android:textAlignment="center"
+        android:textColor="#C32A2A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hint_show_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/hint_show_str"
+        android:textAlignment="center"
+        android:textColor="#14193C"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/num_user_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/attempts_left_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/attempts_left"
+        android:textAlignment="center"
+        android:textColor="#BA00FF"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="@string/confirm_str" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:onClick="restart"
+        android:text="@string/restart_str" />
+
+</android.widget.LinearLayout>
