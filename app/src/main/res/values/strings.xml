@@ -1,28 +1,13 @@
 <resources>
     <string name="app_name">RandomNumber</string>
     <string name="msg_show_str">Отгадай!</string>
-
-    <string name="hint_show2_str">Задумано 2-значное число</string>
-    <string name="hint_show3_str">Задумано 3х-значное число</string>
-    <string name="hint_show4_str">Задумано 4х-значное число</string>
-
-    <string name="number_is_lower_str">Загаданное число меньше введённого!</string>
-    <string name="number_is_greater_str">Загаданное число больше введённого!</string>
-
-    <string name="modal_title_str">Выберите диапазон числа</string>
-    <string name="_2">2-значные</string>
-    <string name="_3">3-значные</string>
-    <string name="_4">4-значные</string>
-
-    <string name="win_str">Ты угадал!</string>
-    <string name="lose_str">Загаданное число: </string>
-    <string name="input_error_str">Введено недопустимое значение</string>
+    <string name="hint_show_str">Задумано двузначное число</string>
+    <string name="guess_str">Отгадать</string>
+    <string name="attempts_left">5</string>
     <string name="restart_str">Заново</string>
     <string name="num_users_str">Введите число</string>
     <string name="confirm_str">Подтвердить выбор</string>
     <string name="applied">Отгадано!</string>
     <string name="wishYou">Поздравляю!</string>
-    <string name="gameMode">Сложная игра:</string>
-    <string name="ok">Ок</string>
-    <string name="cancel">Отмена</string>
+
 </resources>

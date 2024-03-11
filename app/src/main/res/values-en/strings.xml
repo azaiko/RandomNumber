@@ -2,24 +2,12 @@
 <resources>
         <string name="app_name">RandomNumber</string>
         <string name="msg_show_str">Guess</string>
-    <string name="hint_show3_str">A 3-digit number is conceived</string>
-    <string name="restart_str">Anew</string>
+        <string name="hint_show_str">Two-digit number intended</string>
+        <string name="guess_str">Guess</string>
+        <string name="attempts_left">5</string>
+        <string name="restart_str">Anew</string>
         <string name="num_users_str">Enter the number</string>
         <string name="confirm_str">Confirm selection</string>
         <string name="applied">Guessed!</string>
         <string name="wishYou">Congratulations!</string>
-    <string name="gameMode">Hard mode:</string>
-    <string name="hint_show4_str">A 4-digit number is conceived</string>
-    <string name="hint_show2_str">A 2-digit number is conceived</string>
-    <string name="input_error_str">Invalid value entered</string>
-    <string name="number_is_lower_str">The hidden number is less than the entered one!</string>
-    <string name="number_is_greater_str">The hidden number is greater than the entered one!</string>
-    <string name="win_str">You guessed it!</string>
-    <string name="lose_str">The hidden number:</string>
-    <string name="modal_title_str">Select a range of numbers</string>
-    <string name="_2">2-digit numbers</string>
-    <string name="_3">3-digit numbers</string>
-    <string name="_4">4-digit numbers</string>
-    <string name="ok">Ok</string>
-    <string name="cancel">Cancel</string>
 </resources>
