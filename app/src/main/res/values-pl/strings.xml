@@ -2,12 +2,24 @@
 <resources>
     <string name="app_name">RandomNumber</string>
     <string name="msg_show_str">Zgadłem</string>
-    <string name="hint_show_str">Zamierzono liczbę dwucyfrową</string>
-    <string name="guess_str">Zgadywać</string>
-    <string name="attempts_left">5</string>
+    <string name="hint_show3_str">Pomyślany 3-cyfrowy numer</string>
     <string name="restart_str">Nowo</string>
     <string name="num_users_str">Wprowadź numer</string>
     <string name="confirm_str">Potwierdź wybór</string>
     <string name="applied">Zgadłem!</string>
     <string name="wishYou">Gratulacje!</string>
+    <string name="gameMode">Tryb twardy:</string>
+    <string name="hint_show4_str">Pomyślany 4-cyfrowy numer</string>
+    <string name="hint_show2_str">Pomyślany 2-cyfrowy numer</string>
+    <string name="input_error_str">Wprowadzono nieprawidłową wartość</string>
+    <string name="number_is_lower_str">Ukryta liczba jest mniejsza niż wprowadzona!</string>
+    <string name="number_is_greater_str">Wymyślona liczba jest większa niż wprowadzona!</string>
+    <string name="win_str">Zgadłeś!</string>
+    <string name="lose_str">Tajemna liczba:</string>
+    <string name="modal_title_str">Wybierz zakres liczby</string>
+    <string name="_2">2-cyfrowe</string>
+    <string name="_3">3-cyfrowe</string>
+    <string name="_4">4-cyfrowe</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Odwołanie</string>
 </resources>
