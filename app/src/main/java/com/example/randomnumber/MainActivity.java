@@ -15,7 +15,6 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements GameModeDialog.NoticeDialogListener {
-    private GameMode runtime_game_mode = GameMode.DEFAULT;
     private int random_number;
     private int attempts;
 
@@ -57,12 +56,10 @@ public class MainActivity extends AppCompatActivity implements GameModeDialog.No
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(isChecked) {
-                    runtime_game_mode = GameMode.HARD;
                     GameModeDialog modal = new GameModeDialog();
                     modal.show(getSupportFragmentManager(), "Modal");
                 }
                 else {
-                    runtime_game_mode = GameMode.DEFAULT;
                     initVariables(2);
                 }
             }
